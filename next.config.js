@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-  domains : ['images.pexels.com', 'links.papareact.com'],
-
-  }
+    domains : ['images.pexels.com', 'links.papareact.com'],
+  },
+  reactStrictMode: true,
 }
