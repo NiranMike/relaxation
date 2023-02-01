@@ -1,0 +1,18 @@
+[
+    {
+        "img": "../public/md1.jpg",
+        "title": "Outdoor getaways"
+    },
+    {
+        "img": "../public/md2.jpg",
+        "title": "Unique stays"
+    },
+    {
+        "img": "../public/md3.jpg",
+        "title": "Entire homes"
+    },
+    {
+        "img": "../public/md7.jpg",
+        "title": "Pet allowed"
+    }
+]
