@@ -5,7 +5,8 @@ import mydata from '../data.json'
 import middleData from '../middleCard.json'
 import SmallCard from './../components/SmallCard';
 import MiddleCard from './../components/MiddleCard';
-
+import LargeCard from './../components/LargeCard';
+import Footer from './../components/Footer';
 const Home = () => {
  
   return (
@@ -36,11 +37,15 @@ const Home = () => {
               <MiddleCard key={img} img={img} title={title} />
             ))}
           </div>
-          
         </section>
+        <LargeCard 
+          img={'https://links.papareact.com/4cj'}
+          title='The Greatest Outdoors'
+          description='Wishlists curated by Airbnb'
+          buttonText='Get Inspired'
+        />
       </main>
-
-     
+      <Footer />
     </div>
   )
 }
