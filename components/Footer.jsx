@@ -19,6 +19,7 @@ const Footer = () => {
               <p>Its a pretty awesome clone</p>
               <p>Referrals accepted</p>
               <p>Niran Mike</p>
+              <p>test</p>
           </div>
           <div className='space-y-4 text-xs text-gray-800 '>
               <h5 className='font-bold'>HOST</h5>
